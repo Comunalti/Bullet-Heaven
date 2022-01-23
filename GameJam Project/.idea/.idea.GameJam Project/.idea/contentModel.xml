@@ -25,6 +25,9 @@
             </e>
             <e p="EntityMover.cs" t="Include" />
             <e p="InputReader.cs" t="Include" />
+            <e p="Platforms" t="Include">
+              <e p="PlatformPlacer.cs" t="Include" />
+            </e>
             <e p="PlayerState.cs" t="Include" />
             <e p="StateHandler.cs" t="Include" />
             <e p="States" t="Include">

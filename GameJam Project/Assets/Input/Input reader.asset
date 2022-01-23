@@ -12,4 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4b63c76c4649fab6d07b2c61a784f9, type: 3}
   m_Name: Input reader
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7146831421666466469, guid: eb98b2e58af13e74aa7258bcbbd0219a, type: 3}
