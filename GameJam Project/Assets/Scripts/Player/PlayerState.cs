@@ -4,7 +4,7 @@ namespace Player
 {
     public abstract class PlayerState : ScriptableObject
     {
-        public virtual void UpdatePlayer(PlayerStateMachine playerStateMachine)
+        public virtual void UpdatePlayer(StateHandler stateHandler)
         {
             throw new System.NotImplementedException();
         }

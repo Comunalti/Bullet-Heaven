@@ -8,6 +8,7 @@ namespace Player
     public class EntityMover : MonoBehaviour
     {
         private new Rigidbody2D rigidbody2D;
+        [SerializeField] private float speed;
 
         //public Entity entity;
         private void Start()
@@ -17,7 +18,7 @@ namespace Player
 
         public void Move(float horizontal)
         {
-            //rigidbody2D.MovePosition(Vector2.right * (horizontal * entity.HorizontalSpeed * Time.deltaTime));
+            rigidbody2D.velocity = new Vector2((horizontal * speed),rigidbody2D.velocity.y) ;
         }
 
         public void DashToDirectionWithForce(Vector2 direction, float force)

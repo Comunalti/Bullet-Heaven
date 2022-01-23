@@ -1,4 +1,5 @@
-﻿using Input;
+﻿using System;
+using Input;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,15 +8,16 @@ namespace Player
     [CreateAssetMenu(fileName = "Input reader", menuName = "Input reader")]
     public class InputReader : ScriptableObject, PlayerControls.IMovementActions
     {
-        [SerializeField] private GameObject prefab;
-
+        public event Action<float> HorizontalChangedEvent;
+        public event Action<bool> JumpChangedEvent;
+        
         private void Initialize()
         {
         
             var playerControls = new PlayerControls();
-            var _movementActions = new PlayerControls.MovementActions(playerControls);
-            _movementActions.SetCallbacks(this);
-            _movementActions.Enable();
+            var movementActions = new PlayerControls.MovementActions(playerControls);
+            movementActions.SetCallbacks(this);
+            movementActions.Enable();
         }
 
         private void Awake()
@@ -42,15 +44,12 @@ namespace Player
 
         public void OnMove(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValue<float>());
-        
-        
-            GameObject.Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            HorizontalChangedEvent?.Invoke(context.ReadValue<float>());
         }
 
         public void OnJump(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValue<float>());
+            JumpChangedEvent?.Invoke(context.ReadValueAsButton());
         }
     }
 }

@@ -11,16 +11,22 @@
           <e p="PlayerControls.cs" t="Include" />
         </e>
         <e p="InputStarter.cs" t="Include" />
+        <e p="Medieval_pixel_art_asset_FREE" t="Include">
+          <e p="pixel_snapping_README.txt" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="ConsoleToGUI.cs" t="Include" />
           <e p="Entity" t="Include">
             <e p="Health.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="Checkers" t="Include">
+              <e p="GroundedChecker.cs" t="Include" />
+            </e>
+            <e p="EntityMover.cs" t="Include" />
             <e p="InputReader.cs" t="Include" />
-            <e p="PlayerMover.cs" t="Include" />
             <e p="PlayerState.cs" t="Include" />
-            <e p="PlayerStateMachine.cs" t="Include" />
+            <e p="StateHandler.cs" t="Include" />
             <e p="States" t="Include">
               <e p="AttackingState.cs" t="Include" />
               <e p="DashingState.cs" t="Include" />
