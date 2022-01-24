@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 
 namespace Player
 {
-    [CreateAssetMenu(fileName = "Input reader", menuName = "Input reader")]
-    public class InputReader : ScriptableObject, PlayerControls.IMovementActions, PlayerControls.IMouseActions
+    //[CreateAssetMenu(fileName = "Input reader", menuName = "Input reader")]
+    public class InputReader : MonoBehaviour, PlayerControls.IMovementActions, PlayerControls.IMouseActions
     {
         public event Action<float> HorizontalChangedEvent;
         public event Action<bool> JumpChangedEvent;
@@ -13,11 +13,19 @@ namespace Player
         public event Action<Vector2> MousePositionChangedEvent;
         public event Action<bool> MouseRightClickChangedEvent;
         public event Action<bool> MouseLeftClickChangedEvent;
-        
-        
+        public event Action<Vector2> MouseDeltaChangedEvent;
+
+        private bool active;
+
         private void Initialize()
         {
-        
+            if (active)
+            {
+                return;
+            }
+
+            active = true;
+            
             var playerControls = new PlayerControls();
             var movementActions = new PlayerControls.MovementActions(playerControls);
             var mouseActions = new PlayerControls.MouseActions(playerControls);
@@ -35,15 +43,6 @@ namespace Player
         
         }
 
-        private void Reset()
-        {
-            Initialize();
-        }
-
-        public void OnEnable()
-        {
-            Initialize();
-        }
 
         private void OnDisable()
         {
@@ -61,28 +60,49 @@ namespace Player
 
         public void OnJump(InputAction.CallbackContext context)
         {
-            JumpChangedEvent?.Invoke(context.ReadValueAsButton());
+            Debug.Log(context.phase);
+            if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+                JumpChangedEvent?.Invoke(context.ReadValueAsButton());
         }
 
         public void OnMouseRightClick(InputAction.CallbackContext context)
         {
-            // Debug.Log(context.ReadValueAsButton());
-            //MouseRightClickChangedEvent?.Invoke(context.ReadValueAsButton());
+           // Debug.Log(context.ReadValueAsButton());
+           if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+               MouseRightClickChangedEvent?.Invoke(context.ReadValueAsButton());
         }
 
         public void OnMouseLeftClick(InputAction.CallbackContext context)
         {
-            // Debug.Log(context.ReadValueAsButton());
+            //Debug.Log(context.ReadValueAsButton());
+            if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+                MouseLeftClickChangedEvent?.Invoke(context.ReadValueAsButton());
         }
 
         public void OnMouseMove(InputAction.CallbackContext context)
         {
             // Debug.Log(context.ReadValue<Vector2>());
+            //if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+                MousePositionChangedEvent?.Invoke(context.ReadValue<Vector2>());
         }
 
         public void OnMouseScroll(InputAction.CallbackContext context)
         {
-            // Debug.Log(context.ReadValue<float>());
+            //Debug.Log(context.ReadValue<float>());
+            //if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+
+        }
+
+        public void OnMouseDelta(InputAction.CallbackContext context)
+        {
+            //Debug.Log(context.ReadValue<Vector2>());
+            //Debug.Log(context.phase);
+            // if (context.phase == InputActionPhase.Performed)
+            // {
+            //     Debug.Log(context.ReadValue<Vector2>());
+            // }
+            if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
+                MouseDeltaChangedEvent?.Invoke(context.ReadValue<Vector2>());
         }
     }
 }

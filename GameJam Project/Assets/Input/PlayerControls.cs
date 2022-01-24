@@ -117,6 +117,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""MouseDelta"",
+                    ""type"": ""Value"",
+                    ""id"": ""9bcc2884-97e6-48c0-b9fd-0aacfb4992f4"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -163,6 +171,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""MouseScroll"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""403ef2c1-71ae-4f19-8f3a-b7ef491409b6"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MouseDelta"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -179,6 +198,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Mouse_MouseLeftClick = m_Mouse.FindAction("MouseLeftClick", throwIfNotFound: true);
         m_Mouse_MouseMove = m_Mouse.FindAction("MouseMove", throwIfNotFound: true);
         m_Mouse_MouseScroll = m_Mouse.FindAction("MouseScroll", throwIfNotFound: true);
+        m_Mouse_MouseDelta = m_Mouse.FindAction("MouseDelta", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -273,6 +293,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Mouse_MouseLeftClick;
     private readonly InputAction m_Mouse_MouseMove;
     private readonly InputAction m_Mouse_MouseScroll;
+    private readonly InputAction m_Mouse_MouseDelta;
     public struct MouseActions
     {
         private @PlayerControls m_Wrapper;
@@ -281,6 +302,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @MouseLeftClick => m_Wrapper.m_Mouse_MouseLeftClick;
         public InputAction @MouseMove => m_Wrapper.m_Mouse_MouseMove;
         public InputAction @MouseScroll => m_Wrapper.m_Mouse_MouseScroll;
+        public InputAction @MouseDelta => m_Wrapper.m_Mouse_MouseDelta;
         public InputActionMap Get() { return m_Wrapper.m_Mouse; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -302,6 +324,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @MouseScroll.started -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseScroll;
                 @MouseScroll.performed -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseScroll;
                 @MouseScroll.canceled -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseScroll;
+                @MouseDelta.started -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseDelta;
+                @MouseDelta.performed -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseDelta;
+                @MouseDelta.canceled -= m_Wrapper.m_MouseActionsCallbackInterface.OnMouseDelta;
             }
             m_Wrapper.m_MouseActionsCallbackInterface = instance;
             if (instance != null)
@@ -318,6 +343,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @MouseScroll.started += instance.OnMouseScroll;
                 @MouseScroll.performed += instance.OnMouseScroll;
                 @MouseScroll.canceled += instance.OnMouseScroll;
+                @MouseDelta.started += instance.OnMouseDelta;
+                @MouseDelta.performed += instance.OnMouseDelta;
+                @MouseDelta.canceled += instance.OnMouseDelta;
             }
         }
     }
@@ -333,5 +361,6 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnMouseLeftClick(InputAction.CallbackContext context);
         void OnMouseMove(InputAction.CallbackContext context);
         void OnMouseScroll(InputAction.CallbackContext context);
+        void OnMouseDelta(InputAction.CallbackContext context);
     }
 }
