@@ -66,23 +66,23 @@ namespace Player
 
         public void OnMouseRightClick(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValueAsButton());
+            // Debug.Log(context.ReadValueAsButton());
             //MouseRightClickChangedEvent?.Invoke(context.ReadValueAsButton());
         }
 
         public void OnMouseLeftClick(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValueAsButton());
+            // Debug.Log(context.ReadValueAsButton());
         }
 
         public void OnMouseMove(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValue<Vector2>());
+            // Debug.Log(context.ReadValue<Vector2>());
         }
 
         public void OnMouseScroll(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValue<float>());
+            // Debug.Log(context.ReadValue<float>());
         }
     }
 }
