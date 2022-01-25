@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930ee19239bd40bfa9d35b547bae1e22, type: 3}
+  m_Name: NormalTemplate
+  m_EditorClassIdentifier: 
+  realPlatform: {fileID: 1642094641661238481, guid: 77a30145beed7cf4aaf4e4236590d7b8, type: 3}
+  ghostPlatform: {fileID: 1642094641661238481, guid: 16cba5b5056db12419f99e355fbe6141, type: 3}
+  uiPlatform: {fileID: 6654881402080554561, guid: b36029f8cdbf545498deb51326dda306, type: 3}
