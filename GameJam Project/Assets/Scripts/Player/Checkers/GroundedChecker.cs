@@ -27,7 +27,7 @@ namespace Player.Checkers
             
             var raycastHit2D = Physics2D.CapsuleCastAll(_capsuleCollider2D.bounds.center,_capsuleCollider2D.size,_capsuleCollider2D.direction,0,
                 Vector2.down,distance);
-            var a = raycastHit2D.Where(a => a.transform != _transform);
+            var a = raycastHit2D.Where(a => a.transform != _transform && !a.collider.isTrigger);
             
             IsGrounded = a.Count() != 0;
         }
