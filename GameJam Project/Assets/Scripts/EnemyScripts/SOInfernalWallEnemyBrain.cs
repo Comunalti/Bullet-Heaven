@@ -39,7 +39,7 @@ namespace EnemyScripts{
                 _currentTargetPosition = _initialPosition;
 
                 yield return new WaitUntil(() => _currentTargetPosition == enemy.transform.position);
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(shotsCooldown);
             }
         }
         
