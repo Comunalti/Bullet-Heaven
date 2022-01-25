@@ -385,17 +385,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_tiles_free2_36
       objectReference: {fileID: 0}
+    - target: {fileID: 2364717977222315527, guid: 8932ab4b3c73cf74399d03c3936debf2, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7992770296255805226, guid: 8932ab4b3c73cf74399d03c3936debf2, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7992770296255805226, guid: 8932ab4b3c73cf74399d03c3936debf2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.34686756
+      value: 3.88
       objectReference: {fileID: 0}
     - target: {fileID: 7992770296255805226, guid: 8932ab4b3c73cf74399d03c3936debf2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.525951
+      value: 13.82
       objectReference: {fileID: 0}
     - target: {fileID: 7992770296255805226, guid: 8932ab4b3c73cf74399d03c3936debf2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -761,7 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bulletPrefab: {fileID: 4963190714084388045, guid: 832f77cc7550cae44bd8d8f3d92b3ece, type: 3}
-  _brain: {fileID: 11400000, guid: cddfe012a63239e43a8d6d3fc83cc52b, type: 2}
+  brain: {fileID: 11400000, guid: 19cb68f7c64ba114590820337de1a546, type: 2}
   _targetTransform: {fileID: 1545365579}
 --- !u!50 &1208096402
 Rigidbody2D:

@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a360ee3dad6d4e60b0459169118cc71a, type: 3}
-  m_Name: FlyingEnemy
+  m_Script: {fileID: 11500000, guid: c4b21fcfd1114bb484fe55d42e25adca, type: 3}
+  m_Name: Infernal Wall Enemy Brain
   m_EditorClassIdentifier: 
-  _shotsCooldown: 3
-  _bulletSpeed: 12.86
-  _enemySpeed: 3
-  _wallLayer:
-    serializedVersion: 2
-    m_Bits: 16
-  _raycastOffset: 0.6
+  shotsCooldown: 4
+  bulletSpeed: 5
+  enemySpeed: 4.09
+  bulletsOffset: 1.94
+  enemyOffsetPosition: -1.5

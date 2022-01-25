@@ -5,16 +5,16 @@ namespace EnemyScripts{
    [RequireComponent(typeof(Rigidbody2D))]
    public class Enemy : MonoBehaviour{
       [SerializeField] private GameObject _bulletPrefab;
-      [SerializeField] private FlyingEnemyBrain _brain;
+      [SerializeField] private SOEnemyBrainBase brain;
       public Transform _targetTransform;
 
 
       private void Start() {
-         _brain.InitializeBrain(this);
+         brain.InitializeBrain(this);
       }
 
       private void Update() {
-         _brain.Think(this);
+         brain.Think(this);
       }
 
       public void InstantiateBulletPrefab(Vector3 directionVector, float speed, Vector3 startPosition, Quaternion rotation) {
