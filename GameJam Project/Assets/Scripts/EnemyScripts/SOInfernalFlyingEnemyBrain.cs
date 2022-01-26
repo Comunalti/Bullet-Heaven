@@ -9,7 +9,7 @@ namespace EnemyScripts{
 
         public override void InitializeBrain(MonoBehaviour monoBehaviour) {
             var enemy = (Enemy) monoBehaviour;
-            enemy.StartCoroutine(StartShotAfterCooldownCoroutine(shotsCooldown, enemy));
+            enemy.StartCoroutine(StartShotAfterCooldownCoroutine(enemy));
         }
         
         public override void Think(MonoBehaviour monoBehaviour) {
@@ -20,11 +20,12 @@ namespace EnemyScripts{
 
         protected override void AimAndShot(Enemy enemy) {
             var direction = (enemy._targetTransform.position - enemy.transform.position).normalized;
-            
-            
-            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position, enemy.transform.rotation);
-            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position + Vector3.down * bulletsOffset, enemy.transform.rotation);
-            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position + Vector3.down * bulletsOffset * 2, enemy.transform.rotation);
+
+            var rotation = Quaternion.Euler(Vector3.forward * -90);
+                            
+            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position, rotation);
+            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position + Vector3.down * bulletsOffset, rotation);
+            enemy.InstantiateBulletPrefab(direction, bulletSpeed, enemy.transform.position + Vector3.down * bulletsOffset * 2, rotation);
         }
 
         protected override void MoveEnemyHorizontally(Enemy enemy, Vector2 initialDirection) {
@@ -38,9 +39,9 @@ namespace EnemyScripts{
             }
         }
 
-        private IEnumerator StartShotAfterCooldownCoroutine(float seconds, Enemy enemy) {
+        private IEnumerator StartShotAfterCooldownCoroutine(Enemy enemy) {
             while(true) {
-                yield return new WaitForSeconds(seconds);
+                yield return new WaitForSeconds(shotsCooldown);
                 AimAndShot(enemy);
             }
         }
