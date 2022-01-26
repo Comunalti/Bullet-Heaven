@@ -17,6 +17,8 @@ namespace EnemyScripts{
          brain.Think(this);
       }
 
+      
+      
       public void InstantiateBulletPrefab(Vector3 directionVector, float speed, Vector3 startPosition, Quaternion rotation) {
          var bulletInstantiated = Instantiate(_bulletPrefab, startPosition, rotation);
          
