@@ -1,15 +1,33 @@
+using Entity;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletScript : MonoBehaviour{
+   [SerializeField] private float damage = 1;
+   
+   public GameObject owner;
    private void OnBecameInvisible() {
-      Destroy(gameObject);
+      //Destroy(gameObject);
    }
 
-   private void OnCollisionEnter2D(Collision2D other) {
-      if (other.gameObject.tag != "Plataforma") 
-         Destroy(gameObject);
+   
+   
+   private void OnTriggerEnter2D(Collider2D other)
+   {
+      if (owner == other.gameObject)
+      {
+         return;
+      }
       
-        
+      
+      var health = other.gameObject.GetComponent<Health>();
+      if (health != null)
+      {
+         health.Remove(damage);
+      }
+      else
+      {
+         Destroy(gameObject);
+      }
    }
 }

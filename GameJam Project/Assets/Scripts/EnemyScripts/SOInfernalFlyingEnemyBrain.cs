@@ -33,7 +33,7 @@ namespace EnemyScripts{
             
             enemyRigidbody.velocity = initialDirection * enemySpeed;
 
-            if (Physics2D.Raycast(enemy.transform.position, enemyRigidbody.velocity.normalized, raycastOffset, wallLayer)) {
+            if (Physics2D.Raycast(enemy.transform.position, enemyRigidbody.velocity.normalized,raycastOffset,wallLayer)) {
                 enemyRigidbody.velocity *= -1;
                 enemySpeed *= -1;
             }

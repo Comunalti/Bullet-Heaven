@@ -1,5 +1,6 @@
 ﻿using System;
 using DefaultNamespace;
+using Player.Platforms.PlatformsBehaviour;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -22,7 +23,8 @@ namespace Player.Platforms
         [SerializeField] private PlatformList platformList;
 
         private float _angle;
-        
+        [SerializeField] private GameObject player;
+
         private void Start()
         {
             _camera = Camera.main;
@@ -59,8 +61,12 @@ namespace Player.Platforms
             }
             if (value)
             {
-                Instantiate(realPrefab, ghostInstance.transform.position, ghostInstance.transform.rotation);
-               
+                var newPlatform = Instantiate(realPrefab, ghostInstance.transform.position, ghostInstance.transform.rotation);
+                var platform = newPlatform.GetComponent<Platform>();
+                if (platform != null)
+                {
+                    platform.owner = player;
+                }
             }
         }
 
