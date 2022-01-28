@@ -14,8 +14,9 @@ namespace Player
         public event Action<bool> MouseRightClickChangedEvent;
         public event Action<bool> MouseLeftClickChangedEvent;
         public event Action<Vector2> MouseDeltaChangedEvent;
+        
 
-        private bool active;
+        [SerializeField] private bool active;
 
         private void Initialize()
         {
