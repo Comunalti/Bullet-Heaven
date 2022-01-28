@@ -6,6 +6,7 @@ namespace Boss{
 
         public override void EnterState() {
             Debug.Log("Início do Ataque de lasers");
+            _stateMachineManager.ChangeToIdleState();
         }
 
         public override void ExecuteState() {

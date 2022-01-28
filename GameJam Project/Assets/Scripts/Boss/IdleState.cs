@@ -27,10 +27,13 @@ namespace Boss{
             yield return new WaitForSeconds(cooldownInSeconds);
             
             var nextState = PickARandomObjectFromArray(_statesArray);
-            while (nextState == _lastState) {
-                nextState = PickARandomObjectFromArray(_statesArray);
+            
+            if(_statesArray.Length > 1){
+                while (nextState == _lastState) {
+                    nextState = PickARandomObjectFromArray(_statesArray);
+                }
             }
-
+            
             _lastState = nextState;
             
             _stateMachineManager.ChangeState(nextState);

@@ -10,7 +10,12 @@ namespace Boss{
 
         
         private void Awake() {
-            _atacksArray = new BaseState[]{new WaveAttack(this), new DogsAttack(this, dogController), new MultiLasersAttack(this)};
+            _atacksArray = new BaseState[]{
+                new WaveAttack(this),
+                new DogsAttackState(this, dogController),
+                new MultiLasersAttack(this)
+                
+            };
             idleState = new IdleState(this, idleStateCooldownInSeconds);
             _currentState = idleState;
         }
@@ -21,6 +26,10 @@ namespace Boss{
 
         private void Update() {
             _currentState.ExecuteState();
+        }
+
+        public void ChangeToIdleState() {
+            ChangeState(IdleState);
         }
 
         public void ChangeState(BaseState nextState) {

@@ -7,6 +7,7 @@ namespace Boss{
 
         public override void EnterState() {
             Debug.Log("Início do Wave Attack");
+            _stateMachineManager.ChangeToIdleState();
         }
 
         public override void ExecuteState() {
