@@ -11,8 +11,8 @@ namespace Entity
         public float CurrentHealth{ get; private set; }
         //public bool IsDead { get; private set; }
         public event Action OnDiedEvent;
-        public event Action<float> OnHealthAddedEvent;
-        public event Action<float> OnHealthRemovedEvent;
+        public event Action OnHealthAddedEvent;
+        public event Action OnHealthRemovedEvent;
         
         
         public void Set(float newHealth)
@@ -25,24 +25,24 @@ namespace Entity
             }
         }
 
-        public void Add(float toAdd)
+        public void Add()
         {
             var initial = CurrentHealth;
-            CurrentHealth = Mathf.Clamp(CurrentHealth + toAdd, 0, MaxHealth);
+            CurrentHealth = Mathf.Clamp(CurrentHealth + 1, 0, MaxHealth);
             var delta = CurrentHealth - initial;
-            OnHealthAddedEvent?.Invoke(delta);
+            OnHealthAddedEvent?.Invoke();
             if (CurrentHealth<=0)
             {
                 OnDiedEvent?.Invoke();
             }
         }
 
-        public void Remove(float toRemove)
+        public void Remove()
         {
             var initial = CurrentHealth;
-            CurrentHealth = Mathf.Clamp(CurrentHealth - toRemove, 0, MaxHealth);
+            CurrentHealth = Mathf.Clamp(CurrentHealth - 1, 0, MaxHealth);
             var delta = CurrentHealth - initial; 
-            OnHealthRemovedEvent?.Invoke(delta);
+            OnHealthRemovedEvent?.Invoke();
             if (CurrentHealth<=0)
             {
                 OnDiedEvent?.Invoke();

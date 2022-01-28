@@ -3,7 +3,6 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletScript : MonoBehaviour{
-   [SerializeField] private float damage = 1;
    
    public GameObject owner;
    private void OnBecameInvisible() {
@@ -23,7 +22,7 @@ public class BulletScript : MonoBehaviour{
       var health = other.gameObject.GetComponent<Health>();
       if (health != null)
       {
-         health.Remove(damage);
+         health.Remove();
       }
       else
       {

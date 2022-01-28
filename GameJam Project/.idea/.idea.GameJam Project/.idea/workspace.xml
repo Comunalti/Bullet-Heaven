@@ -2,55 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Enemies/Animations/Died.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Enemies/Animations/Died.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Eye Enemy/Attacked.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Eye Enemy/Attacked.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NoFriction.physicsMaterial2D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NoFriction.physicsMaterial2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Attacked.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Attacked.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/HealthBar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/HealthBar.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/Platform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/Platform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/ReflectBulletOnHit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/ReflectBulletOnHit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/TakeHitBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/TakeHitBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DestroyOnDeath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DestroyOnDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HealthUI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HealthUI.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Heart.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUIManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUIManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HotbarManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HotbarManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/contentModel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Animations/Enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Animations/Enemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Animations/Died.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Animations/Died.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Red projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Red projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/HealthBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/HealthBar.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/UI/DefesaAlta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/UI/DefesaAlta.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/UI/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/UI/Normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/UI/Refletiva.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/UI/Refletiva.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/debug.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalFlyingEnemyBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalFlyingEnemyBrain.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/TakeHitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/TakeHitBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +73,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DestroyOnDeath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HotbarManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -140,6 +145,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -149,6 +155,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -174,6 +181,7 @@
       <workItem from="1643221076165" duration="2989000" />
       <workItem from="1643307425803" duration="13129000" />
       <workItem from="1643323431388" duration="137000" />
+      <workItem from="1643338839900" duration="7632000" />
     </task>
     <servers />
   </component>

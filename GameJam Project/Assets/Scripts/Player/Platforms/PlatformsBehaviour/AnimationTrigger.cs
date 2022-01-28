@@ -7,16 +7,15 @@ using UnityEngine.UI;
 namespace Player.Platforms.PlatformsBehaviour
 {
     [RequireComponent(typeof(Health))]
-    public class TakeHitBehaviour : MonoBehaviour
+    public class AnimationTrigger : MonoBehaviour
     {
         private Health _health;
         private Animator _animator;
-        private Slider HealthBar;
+     
         private void Start()
         {
             _health = GetComponent<Health>();
             _animator = GetComponent<Animator>();
-            HealthBar = gameObject.GetComponentInChildren<Slider>();
             
             _health.OnHealthRemovedEvent += OnTakeDamage;
             _health.OnDiedEvent += OnDied;
@@ -25,25 +24,17 @@ namespace Player.Platforms.PlatformsBehaviour
         private void OnDestroy()
         {
             _health.OnHealthRemovedEvent -= OnTakeDamage;
-            _health.OnDiedEvent -= OnDied;        }
+            _health.OnDiedEvent -= OnDied;
+        }
 
         private void OnDied()
         {
-            //Destroy(this);
-            Destroy(HealthBar.transform.parent);
-            _animator.SetTrigger("Died"); 
-            
+            _animator.SetTrigger("Died");
         }
-
-        public void DestroyAll()
-        {
-            Destroy(gameObject);
-        }
-
-        private void OnTakeDamage(float dmg)
+        
+        private void OnTakeDamage()
         {
             _animator.SetTrigger("Attacked");
-            HealthBar.value = _health.CurrentHealth / _health.MaxHealth;
         }
     }
 }
