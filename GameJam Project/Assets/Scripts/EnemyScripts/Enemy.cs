@@ -33,6 +33,11 @@ namespace EnemyScripts{
          var bulletRigidbody = bulletInstantiated.GetComponent<Rigidbody2D>();
         
          bulletRigidbody.velocity = directionVector.normalized * speed;
+         
+         //adiciona na memoria da bala para ela não dar dano no proprio inimigo
+
+         var bulletScript = bulletInstantiated.GetComponent<BulletScript>();
+         bulletScript.owner = this.gameObject;
       }
    }
 }
