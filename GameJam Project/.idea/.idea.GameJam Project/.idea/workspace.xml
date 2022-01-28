@@ -2,84 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Fase.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fase.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Plataform controller.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Plataform controller.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tentativa_de_tilemap.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tentativa_de_tilemap.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tileset.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/kappa.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/kappa.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_17.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_17.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_18.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_18.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_19.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_19.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_20.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_20.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_21.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_21.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_22.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_22.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_23.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_23.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_24.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_24.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_25.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_25.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_9.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/debug.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tileset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tileset.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +139,7 @@
       <workItem from="1643323431388" duration="137000" />
       <workItem from="1643338839900" duration="7632000" />
       <workItem from="1643404923010" duration="267000" />
+      <workItem from="1643407765856" duration="2618000" />
     </task>
     <servers />
   </component>
