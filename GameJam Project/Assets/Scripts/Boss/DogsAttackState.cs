@@ -7,7 +7,7 @@ namespace Boss{
 
         public override void EnterState() {
             Debug.Log("Início do Dog Attack");
-            _dogController.EndState += _stateMachineManager.ChangeToIdleState;
+            _dogController.EndState += _bossStateMachineManager.ChangeToIdleState;
             _dogController.StartAttack();
         }
 
@@ -17,12 +17,12 @@ namespace Boss{
 
         public override void ExitState() {
             Debug.Log("Fim do Dog Attack");
-            _dogController.EndState -= _stateMachineManager.ChangeToIdleState;
+            _dogController.EndState -= _bossStateMachineManager.ChangeToIdleState;
         }
 
 
         
-        public DogsAttackState(BossStateMachineManager stateMachineManager, DogController dogController) : base(stateMachineManager) {
+        public DogsAttackState(BossStateMachineManager bossStateMachineManager, DogController dogController, GameObject bulletPrefab, float bulletSpeed) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
             _dogController = dogController;
         }
     }

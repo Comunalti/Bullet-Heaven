@@ -11,7 +11,7 @@ namespace Boss{
         private float _idleStateCooldownInSeconds;
         
         public override void EnterState() {
-            _stateMachineManager.StartCoroutine(IdleStateCoroutine(_idleStateCooldownInSeconds));
+            _bossStateMachineManager.StartCoroutine(IdleStateCoroutine(_idleStateCooldownInSeconds));
             Debug.Log("Início do Idle");
         }
 
@@ -36,7 +36,7 @@ namespace Boss{
             
             _lastState = nextState;
             
-            _stateMachineManager.ChangeState(nextState);
+            _bossStateMachineManager.ChangeState(nextState);
         }
         
         private T PickARandomObjectFromArray<T>(T[] array) {
@@ -47,8 +47,8 @@ namespace Boss{
             return array[randomNumber];
         }
         
-        public IdleState(BossStateMachineManager stateMachineManager, float idleStateCooldownInSeconds) : base(stateMachineManager) {
-            _statesArray = _stateMachineManager.AtacksArray;
+        public IdleState(BossStateMachineManager bossStateMachineManager, float idleStateCooldownInSeconds, GameObject bulletPrefab, float bulletSpeed) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
+            _statesArray = _bossStateMachineManager.AtacksArray;
             _idleStateCooldownInSeconds = idleStateCooldownInSeconds;
         }
         

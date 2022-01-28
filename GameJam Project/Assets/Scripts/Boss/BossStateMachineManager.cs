@@ -7,16 +7,20 @@ namespace Boss{
         private IdleState idleState;
         [SerializeField] private float idleStateCooldownInSeconds;
         [SerializeField] private DogController dogController;
+        [SerializeField] private GameObject bulletPrefab;
+        [SerializeField] private float bulletSpeed;
+        [SerializeField] private int numberOfCirclesInLaserAttack = 10;
+        [SerializeField] private int numberOfShotsInACircleInLaserAttack = 40;
 
         
         private void Awake() {
             _atacksArray = new BaseState[]{
-                new WaveAttack(this),
-                new DogsAttackState(this, dogController),
-                new MultiLasersAttack(this)
+                new WaveAttack(this, bulletPrefab, bulletSpeed),
+                new DogsAttackState(this, dogController, bulletPrefab, bulletSpeed),
+                new MultiLasersAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack)
                 
             };
-            idleState = new IdleState(this, idleStateCooldownInSeconds);
+            idleState = new IdleState(this, idleStateCooldownInSeconds, bulletPrefab, bulletSpeed);
             _currentState = idleState;
         }
 

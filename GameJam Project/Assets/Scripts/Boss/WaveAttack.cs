@@ -7,7 +7,7 @@ namespace Boss{
 
         public override void EnterState() {
             Debug.Log("Início do Wave Attack");
-            _stateMachineManager.ChangeToIdleState();
+            _bossStateMachineManager.ChangeToIdleState();
         }
 
         public override void ExecuteState() {
@@ -17,7 +17,7 @@ namespace Boss{
             Debug.Log("Fim do Wave Attack");
         }
 
-        public WaveAttack(BossStateMachineManager stateMachineManager) : base(stateMachineManager) {
+        public WaveAttack(BossStateMachineManager bossStateMachineManager, GameObject bulletPrefab, float bulletSpeed) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
         }
     }
 }
