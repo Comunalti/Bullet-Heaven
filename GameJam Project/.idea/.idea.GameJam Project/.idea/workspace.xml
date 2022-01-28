@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable_Objects/Dog Brain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/Dog Brain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttackState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/IdleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/MultiLasersAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/MultiLasersAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/SODogBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/SODogBrain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +120,7 @@
       <workItem from="1643204730506" duration="2491000" />
       <workItem from="1643221076165" duration="2989000" />
       <workItem from="1643303072640" duration="12566000" />
-      <workItem from="1643324460793" duration="7611000" />
+      <workItem from="1643324460793" duration="7683000" />
     </task>
     <servers />
   </component>
