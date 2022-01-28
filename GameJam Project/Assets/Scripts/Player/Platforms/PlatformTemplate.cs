@@ -8,5 +8,6 @@ namespace DefaultNamespace
         public GameObject realPlatform;
         public GameObject ghostPlatform;
         public GameObject uiPlatform;
+        public float plataformCost;
     }
 }

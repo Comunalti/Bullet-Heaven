@@ -27,13 +27,11 @@ public class PlatformManager : MonoBehaviour
         transform = GetComponent<Transform>();
     }
 
-    private void OnEnable()
-    {
+    private void OnEnable(){
         platformList.ItemAddedEvent += OnItemAdded;
         platformList.ItemRemovedEvent += OnItemRemoved;
 
-        foreach (var template in platformList.platformTemplates)
-        {
+        foreach (var template in platformList.platformTemplates){
             OnItemAdded(template);
         }
     }

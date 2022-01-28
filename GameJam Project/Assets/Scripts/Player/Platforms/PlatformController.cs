@@ -1,5 +1,4 @@
-﻿using System;
-using DefaultNamespace;
+﻿using DefaultNamespace;
 using Player.Platforms.PlatformsBehaviour;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -51,17 +50,21 @@ namespace Player.Platforms
             
         }
 
-        private void OnLeftClickChange(bool value)
-        {
+        private void OnLeftClickChange(bool value) {
+            var focusSystem = player.GetComponent<FocusSystem>();
             _angle = 0;
+            
             if (EventSystem.current.IsPointerOverGameObject())
             {
                 print("esta em cima de um objeto");
                 return;
             }
-            if (value)
+            if (value && focusSystem.CurrentFocus > platformTemplate.plataformCost)
             {
                 var newPlatform = Instantiate(realPrefab, ghostInstance.transform.position, ghostInstance.transform.rotation);
+                
+                focusSystem.CurrentFocus -= platformTemplate.plataformCost;
+                
                 var platform = newPlatform.GetComponent<Platform>();
                 if (platform != null)
                 {
