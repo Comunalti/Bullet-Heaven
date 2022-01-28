@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/BaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/BaseState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogsAttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/IdleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/MultiLasersAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/MultiLasersAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +123,7 @@
       <workItem from="1643221076165" duration="2989000" />
       <workItem from="1643303072640" duration="12566000" />
       <workItem from="1643324460793" duration="7683000" />
-      <workItem from="1643379663438" duration="4521000" />
+      <workItem from="1643379663438" duration="4895000" />
     </task>
     <servers />
   </component>

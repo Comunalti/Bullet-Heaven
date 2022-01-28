@@ -1520,6 +1520,8 @@ MonoBehaviour:
   dogController: {fileID: 67931609}
   bulletPrefab: {fileID: 1432670872413184013, guid: 379a3f89285890341a8f6c21ce54002b, type: 3}
   bulletSpeed: 5
+  numberOfCirclesInLaserAttack: 10
+  numberOfShotsInACircleInLaserAttack: 40
 --- !u!212 &1251968011
 SpriteRenderer:
   m_ObjectHideFlags: 0
