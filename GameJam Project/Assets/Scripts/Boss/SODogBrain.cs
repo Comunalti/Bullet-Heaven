@@ -13,7 +13,7 @@ namespace Boss{
 
         public void StartBrain(DogController dogScript) {
             dogScript.InitialPosition = dogScript.transform.position;
-            ChangeDogScriptPositionRandomly(dogScript);
+            ChangeDogScriptPositionToPlayers(dogScript);
             dogScript.StartCoroutine( MoveAndShotCoroutine(dogScript));
         }
         
@@ -53,12 +53,11 @@ namespace Boss{
             bulletRgb.velocity = Vector2.right * bulletSpeed;
         }
         
-        private void ChangeDogScriptPositionRandomly(DogController dogScript) {
-            var random = new System.Random();
-            var position = dogScript.transform.position;
+        private void ChangeDogScriptPositionToPlayers(DogController dogScript) {
+            var playerPosition = dogScript.PlayerTransform.position;
             
             
-            dogScript.NextPosition = new Vector3(dogScript.XPositionToShot.position.x, random.Next(3,11), position.z);
+            dogScript.NextPosition = new Vector3(dogScript.XPositionToShot.position.x, playerPosition.y, dogScript.XPositionToShot.position.z);
         }
         
         private IEnumerator MoveDogToAPositionCoroutine(Vector3 position, GameObject dogGameObj) {

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Tileset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boss_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/debug.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/BossStateMachineManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/DogController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/SODogBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/SODogBrain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boss/WaveAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +92,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14172">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="14172" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -124,6 +133,7 @@
       <workItem from="1643303072640" duration="12566000" />
       <workItem from="1643324460793" duration="7683000" />
       <workItem from="1643379663438" duration="4895000" />
+      <workItem from="1643393878705" duration="2062000" />
     </task>
     <servers />
   </component>

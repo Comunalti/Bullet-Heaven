@@ -15,7 +15,7 @@ namespace Boss{
         
         private void Awake() {
             _atacksArray = new BaseState[]{
-                new WaveAttack(this, bulletPrefab, bulletSpeed),
+                new WaveAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack),
                 new DogsAttackState(this, dogController, bulletPrefab, bulletSpeed),
                 new MultiLasersAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack)
                 
