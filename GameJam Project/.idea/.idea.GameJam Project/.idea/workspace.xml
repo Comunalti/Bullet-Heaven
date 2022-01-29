@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Inimigo_Parede.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Inimigo_Parede.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemies/inimigo_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemies/inimigo_attack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/UmaVida.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/UmaVida.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Vida_Caveira.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Vida_Caveira.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Vidas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hearts/Vidas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Sprites/Furiosa-Sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Platforms/Sprites/Furiosa-Sheet.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/List.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/List.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOEnemyBrainBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOEnemyBrainBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalFlyingEnemyBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalFlyingEnemyBrain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Eye Enemy/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Eye Enemy/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Plataform controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Plataform controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformController.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformController.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/debug.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable_Objects/Infernal Wall Enemy Brain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/Infernal Wall Enemy Brain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalWallEnemyBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SOInfernalWallEnemyBrain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tileset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/kappa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemaps/kappa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +171,7 @@
       <workItem from="1643404923010" duration="267000" />
       <workItem from="1643407765856" duration="9980000" />
       <workItem from="1643473821306" duration="1334000" />
+      <workItem from="1643490377910" duration="1449000" />
     </task>
     <servers />
   </component>
