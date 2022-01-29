@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3490126643100584275}
   - component: {fileID: 923560291958994013}
   m_Layer: 0
-  m_Name: Vida_Caveira
+  m_Name: Borda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
