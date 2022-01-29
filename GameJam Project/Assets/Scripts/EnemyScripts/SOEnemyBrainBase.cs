@@ -7,6 +7,8 @@ namespace EnemyScripts{
         [SerializeField] protected float enemySpeed;
         [SerializeField] protected float bulletsOffset;
 
+        public virtual void StopCorountine (MonoBehaviour monoBehaviour){
+        }
         protected abstract void AimAndShot(Enemy enemy);
         protected abstract void MoveEnemyHorizontally(Enemy enemy, Vector2 direction);
     }

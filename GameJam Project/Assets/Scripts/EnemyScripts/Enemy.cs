@@ -9,10 +9,16 @@ namespace EnemyScripts{
       public Transform _targetTransform;
 
 
-      private void Start() {
+      private void OnEnable() {
          brain.InitializeBrain(this);
-         enabled = false;
+         enabled = true;
       }
+
+      private void OnDisable() {
+         brain.StopCorountine(this);
+         enabled = false;  
+      }
+
 
       private void Update() {
          brain.Think(this);

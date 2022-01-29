@@ -3363,6 +3363,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1545365586, guid: 4418a2bdc0323c640b7894202b967557, type: 3}
+      propertyPath: MaximumFocus
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545365586, guid: 4418a2bdc0323c640b7894202b967557, type: 3}
       propertyPath: initialFocus
       value: 10
       objectReference: {fileID: 0}

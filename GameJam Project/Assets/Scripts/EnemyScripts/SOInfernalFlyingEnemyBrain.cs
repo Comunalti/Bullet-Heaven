@@ -11,6 +11,11 @@ namespace EnemyScripts{
             var enemy = (Enemy) monoBehaviour;
             enemy.StartCoroutine(StartShotAfterCooldownCoroutine(enemy));
         }
+
+        public override void StopCorountine(MonoBehaviour monoBehaviour) {
+            var enemy = (Enemy) monoBehaviour;
+            enemy.StopAllCoroutines();
+        }
         
         public override void Think(MonoBehaviour monoBehaviour) {
             var enemy = (Enemy) monoBehaviour;
