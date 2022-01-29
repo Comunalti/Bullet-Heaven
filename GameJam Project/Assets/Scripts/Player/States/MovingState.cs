@@ -12,6 +12,7 @@ namespace Player.States
         private GroundedChecker _groundedChecker;
         private float horizontalInput;
         private bool spaceBarPress;
+        private Animator _animator;
 
         [SerializeField] private InputReader inputReader;
         [SerializeField] private float jumpForce;
@@ -35,6 +36,12 @@ namespace Player.States
             }
         }
 
+        private void OnGroundTouched()
+        {
+            _animator.SetBool("isJumping", false);
+            _animator.SetBool("isFalling", false);
+        }
+
         private void EndJump()
         {
             var temporaryVelocity = _rigidbody2D.velocity;
@@ -49,6 +56,8 @@ namespace Player.States
             if (_groundedChecker.IsGrounded)
             {
                 _rigidbody2D.velocity = _rigidbody2D.velocity + (Vector2.up * jumpForce);
+                _animator.SetBool("isJumping", true);
+                
             }
         }
 
@@ -57,23 +66,39 @@ namespace Player.States
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _entityMover = GetComponent<EntityMover>();
             _groundedChecker = GetComponent<GroundedChecker>();
+            _animator = GetComponent<Animator>();
         }
 
         private void OnEnable()
         {
             inputReader.HorizontalChangedEvent += OnHorizontalInputChanged;
             inputReader.JumpChangedEvent += OnJumpInputChanged;
+            _groundedChecker.GroundTouchedEvent += OnGroundTouched;
         }
 
         private void OnDisable()
         {
             inputReader.HorizontalChangedEvent -= OnHorizontalInputChanged;
             inputReader.JumpChangedEvent -= OnJumpInputChanged;
+            _groundedChecker.GroundTouchedEvent -= OnGroundTouched;
         }
 
         private void Update()
         {   
             _entityMover.Move(horizontalInput);
+            var isWalking = horizontalInput == -1 || horizontalInput == 1;
+            _animator.SetBool("isWalking", isWalking);
+
+            if (horizontalInput == 1) 
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            else if (horizontalInput == -1) 
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+
+            if (_rigidbody2D.velocity.y < 0)
+            {
+                _animator.SetBool("isFalling", true);
+            }
+                
         }
     }
 }
