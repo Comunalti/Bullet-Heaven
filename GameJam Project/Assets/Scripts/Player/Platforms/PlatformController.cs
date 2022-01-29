@@ -63,7 +63,7 @@ namespace Player.Platforms
             {
                 var newPlatform = Instantiate(realPrefab, ghostInstance.transform.position, ghostInstance.transform.rotation);
                 
-                focusSystem.CurrentFocus -= platformTemplate.plataformCost;
+                focusSystem.RemoveFocus(platformTemplate.plataformCost); 
                 
                 var platform = newPlatform.GetComponent<Platform>();
                 if (platform != null)

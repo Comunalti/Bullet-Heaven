@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Apagando.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Apagando.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Aparecer.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Aparecer.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Foco (10).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Foco (10).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Idle_Aceso.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/FOco/Idle_Aceso.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocoUiManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocoUiManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocusUi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocusUi.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Foco (10).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Foco (10).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid foco.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid foco.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Idle_Apagado.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Idle_Apagado.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/HeartUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Templates/AltaDefesaTemplate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Templates/AltaDefesaTemplate.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Templates/NormalTemplate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Templates/NormalTemplate.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Templates/RefletivaTemplate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Templates/RefletivaTemplate.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/debug.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +49,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FocoUiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HotbarManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DestroyOnDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -139,7 +160,7 @@
       <workItem from="1643323431388" duration="137000" />
       <workItem from="1643338839900" duration="7632000" />
       <workItem from="1643404923010" duration="267000" />
-      <workItem from="1643407765856" duration="2618000" />
+      <workItem from="1643407765856" duration="9768000" />
     </task>
     <servers />
   </component>

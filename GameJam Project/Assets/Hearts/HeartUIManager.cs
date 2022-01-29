@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Entity;
@@ -17,11 +15,7 @@ public class HeartUIManager : MonoBehaviour
         foreach (Transform child in transform)
         {
             Destroy(child.gameObject);
-            // var heartUI = child.GetComponent<HeartUI>();
-            // if (heartUI!=null)
-            // {
-            //     Hearts.Add(heartUI);
-            // }
+
         }
 
         _health = GetComponentInParent<Health>();
