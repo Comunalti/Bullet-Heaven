@@ -13,7 +13,7 @@ public class FocoUiManager : MonoBehaviour{
         _playerFocusSystem.IntegerFocusAddedEvent += AddOnUi;
         _playerFocusSystem.IntegerFocusRemovedEvent += RemoveFromUI;
         
-        for (var i = 0; i < _playerFocusSystem.maximumFocus; i++) {
+        for (var i = 0; i < _playerFocusSystem.MaximumFocus; i++) {
             AddFocus();
         }
     }

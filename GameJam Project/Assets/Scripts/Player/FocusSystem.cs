@@ -5,25 +5,23 @@ namespace Player{
     public class FocusSystem : MonoBehaviour{
         [SerializeField] private float _currentFocus; //esse serialize field é só pra facilitar o debug
         [SerializeField] private float gainFocusPerSecond;
-        public float maximumFocus;
+        public float MaximumFocus;
 
         public event Action<int> IntegerFocusAddedEvent;
         public event Action<int> IntegerFocusRemovedEvent;
         
         private void Awake() {
-            _currentFocus = maximumFocus;
+            _currentFocus = MaximumFocus;
         }
 
         private void Update() {
             AddFocus(gainFocusPerSecond * Time.deltaTime);
-            
-            
         }
 
         public void AddFocus(float delta) {
             var beforeFocus = Mathf.FloorToInt(_currentFocus);
             
-            _currentFocus = Mathf.Clamp(_currentFocus + delta, 0, maximumFocus);
+            _currentFocus = Mathf.Clamp(_currentFocus + delta, 0, MaximumFocus);
             
             var afterfocus = Mathf.FloorToInt(_currentFocus);
 
@@ -38,7 +36,7 @@ namespace Player{
         public void RemoveFocus(float delta) {
             var beforeFocus = Mathf.FloorToInt(_currentFocus);
             
-            _currentFocus = Mathf.Clamp(_currentFocus - delta, 0, maximumFocus);
+            _currentFocus = Mathf.Clamp(_currentFocus - delta, 0, MaximumFocus);
             
             var afterfocus = Mathf.FloorToInt(_currentFocus);
             
