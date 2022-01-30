@@ -9,14 +9,15 @@ namespace Boss{
         public override void EnterState() {
             Debug.Log("Início do Ataque de lasers");
             _bossStateMachineManager.StartCoroutine(ShotInCircleCoroutine());
+            _animator.SetTrigger("Circle Attack");
         }
 
         public override void ExecuteState() {
-            
         }
 
         public override void ExitState() {
             Debug.Log("Fim do Ataque de lasers");
+            _animator.SetTrigger("Boss Idle");
         }
 
 
