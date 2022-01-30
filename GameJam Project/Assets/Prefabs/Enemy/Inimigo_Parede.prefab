@@ -13,6 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2442083246935603977, guid: 6244166d9fea96942874ab9babff9dc6, type: 3}
+--- !u!114 &1246971961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602831413830449741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99037f9ee8c32c408614fbed0de5484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &487700146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602831413830449741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99037f9ee8c32c408614fbed0de5484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7606533063782697630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20,6 +44,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8738999506937731680, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
     - target: {fileID: 1593394614, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.875
@@ -42,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3794855323201747, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_Name
-      value: Inimigo_Parede
+      value: Inimigo_Parede (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3794855323201756, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_RootOrder
@@ -66,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3794855323201756, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.600627
+      value: 19.91
       objectReference: {fileID: 0}
     - target: {fileID: 3794855323201756, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_LocalPosition.z
