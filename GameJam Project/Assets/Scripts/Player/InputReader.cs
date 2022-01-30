@@ -53,12 +53,7 @@ namespace Player
         
         }
 
-
-        private void OnDisable()
-        {
-            //_movementActions.Disable();
-     
-        }
+        
 
         public void OnMove(InputAction.CallbackContext context)
         {
@@ -75,8 +70,7 @@ namespace Player
                 JumpChangedEvent?.Invoke(context.ReadValueAsButton());
         }
 
-        public void OnMouseRightClick(InputAction.CallbackContext context)
-        {
+        public void OnMouseRightClick(InputAction.CallbackContext context){
            // Debug.Log(context.ReadValueAsButton());
            if (context.phase == InputActionPhase.Started ||context.phase == InputActionPhase.Canceled)
                MouseRightClickChangedEvent?.Invoke(context.ReadValueAsButton());
