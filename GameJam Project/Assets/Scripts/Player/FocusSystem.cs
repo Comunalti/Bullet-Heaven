@@ -31,10 +31,10 @@ namespace Player{
             
             _currentFocus = Mathf.Clamp(_currentFocus + delta, 0, MaximumFocus);
             
-            var afterfocus = Mathf.FloorToInt(_currentFocus);
+            var afterFocus = Mathf.FloorToInt(_currentFocus);
 
 
-            var focusRealDelta = afterfocus - beforeFocus;
+            var focusRealDelta = afterFocus - beforeFocus;
             
             if(focusRealDelta <= 0) return;
             

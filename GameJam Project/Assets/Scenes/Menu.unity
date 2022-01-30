@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 750984168}
   - component: {fileID: 750984167}
   - component: {fileID: 750984166}
+  - component: {fileID: 750984170}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -483,7 +484,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 750984167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 750984170}
+        m_TargetAssemblyTypeName: MainMenuButton, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &750984169
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -492,6 +505,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750984164}
   m_CullTransparentMesh: 1
+--- !u!114 &750984170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750984164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f1628faed85cc40bf43d445f74f261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Boss_scene
+  delay: 1
 --- !u!1 &867458290
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,6 +784,7 @@ GameObject:
   - component: {fileID: 1930077192}
   - component: {fileID: 1930077191}
   - component: {fileID: 1930077190}
+  - component: {fileID: 1930077194}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -875,7 +903,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1930077191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930077188}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1930077193
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -884,6 +924,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930077188}
   m_CullTransparentMesh: 1
+--- !u!114 &1930077194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930077188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48de8e8d6a6ceda49b3b254986860a73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2009218352
 GameObject:
   m_ObjectHideFlags: 0

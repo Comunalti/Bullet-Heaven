@@ -11,7 +11,7 @@ public class PlatformManager : MonoBehaviour
     
     private void OnItemAdded(PlatformTemplate obj)
     {
-        Instantiate(obj.uiPlatform, transform);
+            Instantiate(obj.uiPlatform, transform);
     }
 
     private void OnItemRemoved(PlatformTemplate obj)
