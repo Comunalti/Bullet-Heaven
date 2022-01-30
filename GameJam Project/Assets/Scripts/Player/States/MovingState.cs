@@ -18,6 +18,8 @@ namespace Player.States
         [SerializeField] private float jumpForce;
 
         [SerializeField] private float divider;
+        
+        
         public void OnHorizontalInputChanged(float newHorizontalInput)
         {
             horizontalInput = newHorizontalInput;
@@ -29,6 +31,7 @@ namespace Player.States
             if (newSpaceBarPress)
             {
                 StartJump();
+                PlayerAudioManager.PlayerJumpingEvent.Invoke();
             }
             else
             {

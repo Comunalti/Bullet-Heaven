@@ -8,12 +8,13 @@ public class MainMenuButton : MonoBehaviour{
 
 
     public void LoadScene() {
+        StopAllCoroutines();
         StartCoroutine(SceneStarterCoroutine(delay));
     }
     
     private IEnumerator SceneStarterCoroutine(float delay) {
         yield return new WaitForSeconds(delay);
-
+        Time.timeScale = 1;
         SceneManager.LoadScene(sceneName);
     }
 }
