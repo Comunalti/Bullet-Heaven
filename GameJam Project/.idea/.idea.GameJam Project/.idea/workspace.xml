@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="" />
+    <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/En_1_hell/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/En_1_hell/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Borda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Borda.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/contvida - cheio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/contvida - cheio.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hearts/contvida - vazio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/contvida - vazio.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/IdleAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/IdleAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/NewPlataformAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/NewPlataformAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/AltaDefesaGhost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/AltaDefesaGhost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/NormalGhost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/NormalGhost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/Refletivaghost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/Refletivaghost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +54,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/DestroyOnDeath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FocoUiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HotbarManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FocoUiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -157,6 +191,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -15,7 +15,7 @@ namespace Player.Platforms.PlatformsBehaviour
         private void Start()
         {
             _health = GetComponent<Health>();
-            _animator = GetComponent<Animator>();
+            _animator = GetComponentInParent<Animator>();
             
             _health.OnHealthRemovedEvent += OnTakeDamage;
             _health.OnDiedEvent += OnDied;

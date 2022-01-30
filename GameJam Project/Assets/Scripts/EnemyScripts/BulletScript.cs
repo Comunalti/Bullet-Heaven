@@ -1,3 +1,4 @@
+using System;
 using Entity;
 using UnityEngine;
 
@@ -9,8 +10,25 @@ public class BulletScript : MonoBehaviour{
       //Destroy(gameObject);
    }
 
-   
-   
+   private Renderer _renderer;
+
+   private void Start()
+   {
+      _renderer = GetComponent<Renderer>();
+   }
+
+   private void Update()
+   {
+      CheckOnScreen();
+   }
+
+   private void CheckOnScreen()
+   {
+      if (!_renderer.isVisible)
+      {
+         Destroy(gameObject);
+      }
+   }
    private void OnTriggerEnter2D(Collider2D other)
    {
       if (owner == other.gameObject)

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930ee19239bd40bfa9d35b547bae1e22, type: 3}
   m_Name: AltaDefesaTemplate
   m_EditorClassIdentifier: 
-  realPlatform: {fileID: 1642094641661238481, guid: f97a91ba4fddd46478bfb06ec531e1ba, type: 3}
-  ghostPlatform: {fileID: 1642094641661238481, guid: e570a2d1caf65e54288aa30263026612, type: 3}
+  realPlatform: {fileID: 949724372759515232, guid: 76da19f532636a24691452ceced1271a, type: 3}
+  ghostPlatform: {fileID: 1804111368296486404, guid: cade7d4ce6e64434ab853382f4ee45cf, type: 3}
   uiPlatform: {fileID: 6654881402080554561, guid: 84a6853ad530343489f96c6775dbf77e, type: 3}
   plataformCost: 5

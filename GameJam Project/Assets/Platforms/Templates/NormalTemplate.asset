@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930ee19239bd40bfa9d35b547bae1e22, type: 3}
   m_Name: NormalTemplate
   m_EditorClassIdentifier: 
-  realPlatform: {fileID: 1642094641661238481, guid: 77a30145beed7cf4aaf4e4236590d7b8, type: 3}
-  ghostPlatform: {fileID: 1642094641661238481, guid: 16cba5b5056db12419f99e355fbe6141, type: 3}
+  realPlatform: {fileID: 4059784127907408847, guid: 48689a0439f429a42b8f2ca5febc6f53, type: 3}
+  ghostPlatform: {fileID: 7879293107700127948, guid: 35d3fc810931afd499730855223f0f35, type: 3}
   uiPlatform: {fileID: 6654881402080554561, guid: b36029f8cdbf545498deb51326dda306, type: 3}
   plataformCost: 2
