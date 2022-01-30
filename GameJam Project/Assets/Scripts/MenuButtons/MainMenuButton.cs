@@ -8,6 +8,7 @@ public class MainMenuButton : MonoBehaviour{
 
 
     public void LoadScene() {
+        StopAllCoroutines();
         StartCoroutine(SceneStarterCoroutine(delay));
     }
     
