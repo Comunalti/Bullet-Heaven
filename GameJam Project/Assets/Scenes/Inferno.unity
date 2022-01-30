@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1245,6 +1245,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1001 &491865215
@@ -1474,6 +1482,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!4 &829320717 stripped
@@ -1910,6 +1926,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1001 &1084226826
@@ -2342,6 +2366,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1 &1245625558
@@ -2519,6 +2551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1001 &1274981348
@@ -3179,6 +3219,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1 &1449116347
@@ -3450,6 +3498,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1 &1617526477
@@ -3815,6 +3871,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: En_1_hell (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1797135987167802229, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
+    - target: {fileID: 2181177021439141383, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 516317663158579945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa69b78f5fb89746b64e3e0c312281b, type: 3}
 --- !u!1001 &1815317031
