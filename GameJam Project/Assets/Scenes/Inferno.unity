@@ -974,6 +974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inimigo_Parede
       objectReference: {fileID: 0}
+    - target: {fileID: 8013878163079802686, guid: 48091b800ece0d6489b64ddbd190e32f, type: 3}
+      propertyPath: enemyDyingAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48091b800ece0d6489b64ddbd190e32f, type: 3}
 --- !u!1 &442339572
@@ -1440,6 +1444,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1246971948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7602831413830449741, guid: 48091b800ece0d6489b64ddbd190e32f, type: 3}
+  m_PrefabInstance: {fileID: 442090878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1246971961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246971948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99037f9ee8c32c408614fbed0de5484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1391610145
 GameObject:
   m_ObjectHideFlags: 0
@@ -16334,6 +16355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3933124073110361889, guid: 11df66b074a91e1489d05f28114e4b19, type: 3}
+      propertyPath: interactSoundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: bed84b7c5346287438d043ae5831c49e, type: 3}
     - target: {fileID: 7339962655976587940, guid: 11df66b074a91e1489d05f28114e4b19, type: 3}
       propertyPath: m_Name
       value: Collector normal
@@ -16732,6 +16757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 205911555, guid: 6599e7d52b5d7cc46a030b493346c9b3, type: 3}
+      propertyPath: interactSoundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: bed84b7c5346287438d043ae5831c49e, type: 3}
     - target: {fileID: 516317663805870396, guid: 6599e7d52b5d7cc46a030b493346c9b3, type: 3}
       propertyPath: m_RootOrder
       value: 12
