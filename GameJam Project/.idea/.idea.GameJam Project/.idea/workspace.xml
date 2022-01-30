@@ -2,39 +2,440 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Collect.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Collect.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/GameObject.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/GameObject.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Osso2.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/Osso2.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/idleCollector.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Platforms/Collector/idleCollector.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/heal.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/heal.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocusSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FocusSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/List.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/List.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Extras/Healer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Extras/Healer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PauseCanvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PauseCanvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector alta defesa.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector alta defesa.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector furiosa.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector furiosa.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector normal.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector normal.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector refletivo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Collectors/Collector refletivo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/GhostPrefabs/furiosa ghost.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/GhostPrefabs/furiosa ghost.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Furiosa.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Furiosa.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma furiosa.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma furiosa.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/HeartUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/HeartUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/SkullCanvas - default.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/SkullCanvas - default.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/newSkull.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull/newSkull.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/Platform/Furiosa.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/Platform/Furiosa.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Healer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Healer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/LootDropper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/LootDropper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthAnimationTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthAnimationTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/LeaveGameButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/LeaveGameButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/MainMenuButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/MainMenuButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/ReturnButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons/ReturnButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/Collector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/Collector/PlatformCollector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/Collector/PlatformCollector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/Collector/PlatformCollectorAnimationHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/Collector/PlatformCollectorAnimationHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/InfernoBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/InfernoBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Interface.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Platforms/circle_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Platforms/circle_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/star_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/star_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/InfernoBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/InfernoBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tileset 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tileset 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/fasee.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/fasee.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset 1_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tilemaps/tiles/Tileset_9.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/En_1_hell/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/En_1_hell/idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemies/Prefabs/Blue projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Borda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Borda.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Empty.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/Heart Fill.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/HeartUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/contvida - cheio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/contvida - cheio.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hearts/contvida - vazio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hearts/contvida - vazio.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/Died.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/IdleAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/IdleAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/NewPlataformAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/NewPlataformAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/Animations/PlatformReal.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/AltaDefesaGhost.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/AltaDefesaGhost.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/NormalGhost.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/NormalGhost.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/Refletivaghost.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/GhostPrefabs/Refletivaghost.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/AltaDefesaReal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/NormalReal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/RealPrefabs/RefletivaReal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Health/Heart Empty Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Health/Heart Empty Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Health/Heart Empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Health/Heart Empty.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Health/Heart Fill Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Health/Heart Fill Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Health/Heart Fill.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Health/Heart Fill.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player Anim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player Anim.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input_Actions/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input_Actions/PlayerControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input_Actions/PlayerControls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input_Actions/PlayerControls.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/GhostPrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/List.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/List.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/RealPrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Platforms/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/InfernoBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/InfernoBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/Tileset 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/Tileset 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/fasee.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/fasee.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset 1_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Other/Tilemaps/tiles/Tileset_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hearts/SkullCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hearts/SkullCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Other/Plataform controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Other/Plataform controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/DefesaAlta.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/DefesaAlta.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Refletiva.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/Platform UI/Refletiva.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma Reflexiva.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma Reflexiva.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma forte.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma forte.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platforms/RealPrefabs/Plataforma normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/En_player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/En_player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inferno.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inferno.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InfernoBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InfernoBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable_Objects/Platform/RefletivaTemplate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/Platform/RefletivaTemplate.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FocoUiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FocoUiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HeartUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HeartUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Checkers/GroundedChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Checkers/GroundedChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FocusSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/InputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformTemplate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformTemplate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformAnimationTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/AnimationTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformAnimationTrigger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/DestroyBulletOnHit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformOwner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/Platform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformOwner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/ReflectBulletOnHit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformReflectBulletOnHit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Platforms/PlatformsBehaviour/ReflectBulletOnHit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platforms/PlatformsBehaviour/PlatformReflectBulletOnHit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/States/MovingState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/States/MovingState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/health/HealthUI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/health/HealthUI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/health/contvida - cheio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/health/contvida - cheio.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/health/contvida - vazio.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/health/contvida - vazio.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +454,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/DestroyOnDeath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HotbarManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FocoUiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FocusSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FocoUiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />

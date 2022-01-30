@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930ee19239bd40bfa9d35b547bae1e22, type: 3}
+  m_Name: Furiosa
+  m_EditorClassIdentifier: 
+  realPlatform: {fileID: 199916154967603734, guid: 7f58d3884dcfcd54a94db0d8b6667c4e, type: 3}
+  ghostPlatform: {fileID: 3033307738343238293, guid: 0896c004f01374d4983bb09b7196a95e, type: 3}
+  uiPlatform: {fileID: 6654881402080554561, guid: db3e2d19796d95542aedee779dfe1b5f, type: 3}
+  plataformCost: 6

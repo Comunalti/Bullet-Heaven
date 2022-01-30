@@ -9,7 +9,9 @@ namespace Player{
 
         public event Action<int> IntegerFocusAddedEvent;
         public event Action<int> IntegerFocusRemovedEvent;
-        
+
+        public event Action<int> CreateDeltaMoreEvent;
+
         private void Awake() {
             _currentFocus = MaximumFocus;
         }
@@ -18,6 +20,12 @@ namespace Player{
             AddFocus(gainFocusPerSecond * Time.deltaTime);
         }
 
+        public void Create(int quantity)
+        {
+            MaximumFocus += quantity;
+            CreateDeltaMoreEvent?.Invoke(quantity);
+        }
+        
         public void AddFocus(float delta) {
             var beforeFocus = Mathf.FloorToInt(_currentFocus);
             

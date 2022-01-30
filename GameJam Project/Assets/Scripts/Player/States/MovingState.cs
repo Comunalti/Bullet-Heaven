@@ -36,10 +36,19 @@ namespace Player.States
             }
         }
 
-        private void OnGroundTouched()
+        private void OnGroundTouchChanged(bool isTouching)
         {
-            _animator.SetBool("isJumping", false);
-            _animator.SetBool("isFalling", false);
+            if (isTouching)
+            {
+                _animator.SetBool("isJumping", false);
+                _animator.SetBool("isFalling", false);
+            }
+            else
+            {
+                _animator.SetBool("isFalling", true);
+
+            }
+            
         }
 
         private void EndJump()
@@ -73,14 +82,14 @@ namespace Player.States
         {
             inputReader.HorizontalChangedEvent += OnHorizontalInputChanged;
             inputReader.JumpChangedEvent += OnJumpInputChanged;
-            _groundedChecker.GroundTouchedEvent += OnGroundTouched;
+            _groundedChecker.GroundTouchChangedEvent += OnGroundTouchChanged;
         }
 
         private void OnDisable()
         {
             inputReader.HorizontalChangedEvent -= OnHorizontalInputChanged;
             inputReader.JumpChangedEvent -= OnJumpInputChanged;
-            _groundedChecker.GroundTouchedEvent -= OnGroundTouched;
+            _groundedChecker.GroundTouchChangedEvent -= OnGroundTouchChanged;
         }
 
         private void Update()
@@ -94,10 +103,10 @@ namespace Player.States
             else if (horizontalInput == -1) 
                 transform.rotation = Quaternion.Euler(0, 180, 0);
 
-            if (_rigidbody2D.velocity.y < 0)
-            {
-                _animator.SetBool("isFalling", true);
-            }
+            // if (_rigidbody2D.velocity.y < 0)
+            // {
+            //     _animator.SetBool("isFalling", true);
+            // }
                 
         }
     }

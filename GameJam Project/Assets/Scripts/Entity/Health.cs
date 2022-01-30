@@ -30,10 +30,13 @@ namespace Entity
             var initial = CurrentHealth;
             CurrentHealth = Mathf.Clamp(CurrentHealth + 1, 0, MaxHealth);
             var delta = CurrentHealth - initial;
-            OnHealthAddedEvent?.Invoke();
-            if (CurrentHealth<=0)
+            if (delta > 0)
             {
-                OnDiedEvent?.Invoke();
+                OnHealthAddedEvent?.Invoke();
+                if (CurrentHealth<=0)
+                {
+                    OnDiedEvent?.Invoke();
+                }
             }
         }
 

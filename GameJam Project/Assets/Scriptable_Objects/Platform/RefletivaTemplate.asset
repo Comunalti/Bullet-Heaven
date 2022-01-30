@@ -15,4 +15,4 @@ MonoBehaviour:
   realPlatform: {fileID: 199916154967603734, guid: 3207647067a6b3f4bb0c998a912ee046, type: 3}
   ghostPlatform: {fileID: 3033307738343238293, guid: f72860ba34251264f964d4013403c75e, type: 3}
   uiPlatform: {fileID: 6654881402080554561, guid: 4d8673de8ce1ac848bd49363aa70c166, type: 3}
-  plataformCost: 5
+  plataformCost: 3

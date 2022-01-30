@@ -6,9 +6,10 @@ using UnityEngine;
 public class HeartUIManager : MonoBehaviour
 {
     [SerializeField] private GameObject _heartPrefab;
+    [SerializeField] private Health _health;
 
+    
     public List<HeartUI> Hearts = new List<HeartUI>();
-    private Health _health;
 
     private void Start()
     {
@@ -18,7 +19,7 @@ public class HeartUIManager : MonoBehaviour
 
         }
 
-        _health = GetComponentInParent<Health>();
+        //_health = GetComponentInParent<Health>();
         AddHeart(Mathf.CeilToInt(_health.MaxHealth));
         _health.OnDiedEvent += OnDeath;
         _health.OnHealthAddedEvent += FillHeart;

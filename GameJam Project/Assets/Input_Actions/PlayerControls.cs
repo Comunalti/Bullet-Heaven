@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Input/PlayerControls.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Input_Actions/PlayerControls.inputactions'
 
 using System;
 using System.Collections;
@@ -184,6 +184,33 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Pause"",
+            ""id"": ""a77972aa-b21e-45da-8464-95aa3b758e23"",
+            ""actions"": [
+                {
+                    ""name"": ""Esc"",
+                    ""type"": ""Button"",
+                    ""id"": ""e7936631-b43b-4db2-9e76-79e6eb925d66"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""a94707bc-e43e-4ea7-96fc-742f9d718b66"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Esc"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -199,6 +226,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Mouse_MouseMove = m_Mouse.FindAction("MouseMove", throwIfNotFound: true);
         m_Mouse_MouseScroll = m_Mouse.FindAction("MouseScroll", throwIfNotFound: true);
         m_Mouse_MouseDelta = m_Mouse.FindAction("MouseDelta", throwIfNotFound: true);
+        // Pause
+        m_Pause = asset.FindActionMap("Pause", throwIfNotFound: true);
+        m_Pause_Esc = m_Pause.FindAction("Esc", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -350,6 +380,39 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         }
     }
     public MouseActions @Mouse => new MouseActions(this);
+
+    // Pause
+    private readonly InputActionMap m_Pause;
+    private IPauseActions m_PauseActionsCallbackInterface;
+    private readonly InputAction m_Pause_Esc;
+    public struct PauseActions
+    {
+        private @PlayerControls m_Wrapper;
+        public PauseActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Esc => m_Wrapper.m_Pause_Esc;
+        public InputActionMap Get() { return m_Wrapper.m_Pause; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(PauseActions set) { return set.Get(); }
+        public void SetCallbacks(IPauseActions instance)
+        {
+            if (m_Wrapper.m_PauseActionsCallbackInterface != null)
+            {
+                @Esc.started -= m_Wrapper.m_PauseActionsCallbackInterface.OnEsc;
+                @Esc.performed -= m_Wrapper.m_PauseActionsCallbackInterface.OnEsc;
+                @Esc.canceled -= m_Wrapper.m_PauseActionsCallbackInterface.OnEsc;
+            }
+            m_Wrapper.m_PauseActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Esc.started += instance.OnEsc;
+                @Esc.performed += instance.OnEsc;
+                @Esc.canceled += instance.OnEsc;
+            }
+        }
+    }
+    public PauseActions @Pause => new PauseActions(this);
     public interface IMovementActions
     {
         void OnMove(InputAction.CallbackContext context);
@@ -362,5 +425,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnMouseMove(InputAction.CallbackContext context);
         void OnMouseScroll(InputAction.CallbackContext context);
         void OnMouseDelta(InputAction.CallbackContext context);
+    }
+    public interface IPauseActions
+    {
+        void OnEsc(InputAction.CallbackContext context);
     }
 }

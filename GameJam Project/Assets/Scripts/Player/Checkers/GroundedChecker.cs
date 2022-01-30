@@ -9,7 +9,7 @@ namespace Player.Checkers
     {
         [field: SerializeField]
         public bool IsGrounded { get; private set; }
-        [SerializeField][Range(0,0.5f)]
+        [SerializeField][Range(0,2f)]
         private float distance = 0.18f;
         Rigidbody2D _rigidbody2D;
         private Transform _transform;
@@ -29,12 +29,12 @@ namespace Player.Checkers
             var a = raycastHit2D.Where(a => a.transform != _transform && !a.collider.isTrigger);
             
             IsGrounded = a.Count() != 0;
-            if (isGroundedLastFrame != IsGrounded && IsGrounded)
+            if (isGroundedLastFrame != IsGrounded )
             {
-                GroundTouchedEvent?.Invoke();
+                GroundTouchChangedEvent?.Invoke(IsGrounded);
             }
         }
 
-        public event Action GroundTouchedEvent;
+        public event Action<bool> GroundTouchChangedEvent;
     }
 }
