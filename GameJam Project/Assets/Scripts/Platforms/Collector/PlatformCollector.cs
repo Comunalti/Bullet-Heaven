@@ -25,6 +25,8 @@ namespace Platforms
         {
             platformList.Add(platformTemplate);
             Destroy(_collider2D);
+            var player = GameObject.FindWithTag("Player").GetComponent<PlayerAudioManager>();
+            player.PlayInteractEffect();
             PlatformCollectedEvent?.Invoke();
         }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerAudioManager : MonoBehaviour{
     [SerializeField] private AudioClip jumpSoundEffect;
     [SerializeField] private AudioClip playerDieSoundEffect;
+    [SerializeField] private AudioClip interactSoundEffect;
     private AudioSource _audioSource;
 
     public static Action PlayerJumpingEvent;
@@ -14,8 +15,13 @@ public class PlayerAudioManager : MonoBehaviour{
 
         PlayerJumpingEvent = PlayJumpSoundEffect;
         PlayerDyingEvent = PlayDieSoundEffect;
+        
     }
 
+    public void PlayInteractEffect() {
+        _audioSource.clip = interactSoundEffect;
+        _audioSource.Play();
+    }
 
     private void PlayJumpSoundEffect() {
         _audioSource.clip = jumpSoundEffect;
