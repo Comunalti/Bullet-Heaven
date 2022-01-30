@@ -48,7 +48,7 @@ namespace Boss{
         }
         
         
-        public MultiLasersAttack(BossStateMachineManager bossStateMachineManager, GameObject bulletPrefab, float bulletSpeed, int numberOfCircles, int numberOfShotsInACircle) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
+        public MultiLasersAttack(BossStateMachineManager bossStateMachineManager, GameObject bulletPrefab, float bulletSpeed, int numberOfCircles, int numberOfShotsInACircle, Animator animator) : base(bossStateMachineManager, bulletPrefab, bulletSpeed, animator) {
             _numberOfCircles = numberOfCircles;
             _numberOfShotsInACircle = numberOfShotsInACircle;
         }

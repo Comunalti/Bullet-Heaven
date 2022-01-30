@@ -1,5 +1,3 @@
-
-using System;
 using DefaultNamespace;
 using Player.Platforms;
 using UnityEngine;
@@ -27,8 +25,7 @@ public class PlatformManager : MonoBehaviour
             }
         }
     }
-
-
+    
     private void Awake()
     {
         transform = GetComponent<Transform>();
@@ -44,7 +41,6 @@ public class PlatformManager : MonoBehaviour
     }
 
     
-
     private void OnDisable()
     {
         platformList.ItemAddedEvent -= OnItemAdded;

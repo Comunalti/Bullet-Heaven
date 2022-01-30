@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 616083702139160977}
   - component: {fileID: 616083702139160978}
   - component: {fileID: 616083702139160979}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FocusSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}

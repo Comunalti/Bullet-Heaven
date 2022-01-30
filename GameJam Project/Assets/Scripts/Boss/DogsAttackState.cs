@@ -22,7 +22,7 @@ namespace Boss{
 
 
         
-        public DogsAttackState(BossStateMachineManager bossStateMachineManager, DogController dogController, GameObject bulletPrefab, float bulletSpeed) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
+        public DogsAttackState(BossStateMachineManager bossStateMachineManager, DogController dogController, GameObject bulletPrefab, float bulletSpeed, Animator animator) : base(bossStateMachineManager, bulletPrefab, bulletSpeed, animator) {
             _dogController = dogController;
         }
     }

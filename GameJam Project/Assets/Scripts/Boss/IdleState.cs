@@ -47,7 +47,7 @@ namespace Boss{
             return array[randomNumber];
         }
         
-        public IdleState(BossStateMachineManager bossStateMachineManager, float idleStateCooldownInSeconds, GameObject bulletPrefab, float bulletSpeed) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
+        public IdleState(BossStateMachineManager bossStateMachineManager, float idleStateCooldownInSeconds, GameObject bulletPrefab, float bulletSpeed, Animator animator) : base(bossStateMachineManager, bulletPrefab, bulletSpeed, animator) {
             _statesArray = _bossStateMachineManager.AtacksArray;
             _idleStateCooldownInSeconds = idleStateCooldownInSeconds;
         }

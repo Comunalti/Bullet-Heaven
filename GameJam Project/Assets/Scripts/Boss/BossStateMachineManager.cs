@@ -11,16 +11,19 @@ namespace Boss{
         [SerializeField] private float bulletSpeed;
         [SerializeField] private int numberOfCirclesInLaserAttack = 10;
         [SerializeField] private int numberOfShotsInACircleInLaserAttack = 40;
+        private Animator _animator;
 
         
         private void Awake() {
+            _animator = GetComponent<Animator>();
             _atacksArray = new BaseState[]{
-                new WaveAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack),
-                new DogsAttackState(this, dogController, bulletPrefab, bulletSpeed),
-                new MultiLasersAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack)
+                
+                new WaveAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack, _animator),
+                new DogsAttackState(this, dogController, bulletPrefab, bulletSpeed, _animator),
+                new MultiLasersAttack(this, bulletPrefab, bulletSpeed, numberOfCirclesInLaserAttack, numberOfShotsInACircleInLaserAttack, _animator)
                 
             };
-            idleState = new IdleState(this, idleStateCooldownInSeconds, bulletPrefab, bulletSpeed);
+            idleState = new IdleState(this, idleStateCooldownInSeconds, bulletPrefab, bulletSpeed, _animator);
             _currentState = idleState;
         }
 

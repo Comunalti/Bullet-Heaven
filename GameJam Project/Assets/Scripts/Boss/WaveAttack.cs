@@ -10,6 +10,7 @@ namespace Boss{
         public override void EnterState() {
             Debug.Log("Início do Wave Attack");
             _bossStateMachineManager.StartCoroutine(ShotInCircleCoroutine());
+            _animator.SetTrigger("Wave Attack");
         }
 
         public override void ExecuteState() {
@@ -17,6 +18,7 @@ namespace Boss{
 
         public override void ExitState() {
             Debug.Log("Fim do Wave Attack");
+            _animator.SetTrigger("Boss Idle");
         }
 
         private IEnumerator ShotInCircleCoroutine() {
@@ -73,7 +75,7 @@ namespace Boss{
             bulletRgb.velocity = direction.normalized * _bulletSpeed;
         }
         
-        public WaveAttack(BossStateMachineManager bossStateMachineManager, GameObject bulletPrefab, float bulletSpeed, int numberOfCircles, int numberOfShotsInACircle) : base(bossStateMachineManager, bulletPrefab, bulletSpeed) {
+        public WaveAttack(BossStateMachineManager bossStateMachineManager, GameObject bulletPrefab, float bulletSpeed, int numberOfCircles, int numberOfShotsInACircle, Animator animator) : base(bossStateMachineManager, bulletPrefab, bulletSpeed, animator) {
             _numberOfCircles = numberOfCircles;
             _numberOfShotsInACircle = numberOfShotsInACircle;
         }
