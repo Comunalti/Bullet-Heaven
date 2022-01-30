@@ -34,7 +34,7 @@ namespace EnemyScripts{
 
                 AimAndShot(enemy);
 
-                yield return new WaitForSeconds(3);
+                yield return new WaitForSeconds(shotsCooldown);
 
                 _currentTargetPosition = _initialPosition;
 

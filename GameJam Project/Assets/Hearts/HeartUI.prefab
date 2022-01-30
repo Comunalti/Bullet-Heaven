@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750fb3bc04f29164590451652713b764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPrefab: {fileID: 2587327660574988190, guid: ebf034ff1e75b75419149df9db9b0c56, type: 3}
+  _heartPrefab: {fileID: 4439722619663883457, guid: 46263834b5ea0a64b9edc29d8cf5aa00, type: 3}
   Hearts: []
 --- !u!114 &7536426285332026178
 MonoBehaviour:
@@ -72,6 +72,6 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 0.1, y: 0.11}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: 0.04, y: 0.03}
   m_Constraint: 1
   m_ConstraintCount: 4
