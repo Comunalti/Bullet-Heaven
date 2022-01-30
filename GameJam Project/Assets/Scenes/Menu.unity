@@ -614,8 +614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f1628faed85cc40bf43d445f74f261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Boss_scene
-  delay: 1
+  sceneName: Inferno
+  delay: 0.5
 --- !u!1 &867458290
 GameObject:
   m_ObjectHideFlags: 0

@@ -68,6 +68,8 @@ GameObject:
   - component: {fileID: 8489484460928888517}
   - component: {fileID: 205911554}
   - component: {fileID: 205911555}
+  - component: {fileID: 4961096675158730070}
+  - component: {fileID: 713900803}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -402,6 +404,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSoundEffect: {fileID: 8300000, guid: 2702c9d6cf39910419d6274dff102a4e, type: 3}
   playerDieSoundEffect: {fileID: 8300000, guid: 2ef4c1457d518b248bbf7c8e1fc13bbf, type: 3}
+  interactSoundEffect: {fileID: 0}
+--- !u!114 &4961096675158730070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516317662691841222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac347f192c1511469fc963226c0049b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &713900803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516317662691841222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db87b418e74047ebbfc81a3a5e40b328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  looseScene: {fileID: 3987562703920608686, guid: e84926e8a0c20184984039b8070858cc, type: 3}
 --- !u!1 &516317663805870397
 GameObject:
   m_ObjectHideFlags: 0

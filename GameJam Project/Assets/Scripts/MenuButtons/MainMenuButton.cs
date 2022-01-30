@@ -13,7 +13,7 @@ public class MainMenuButton : MonoBehaviour{
     
     private IEnumerator SceneStarterCoroutine(float delay) {
         yield return new WaitForSeconds(delay);
-
+        Time.timeScale = 1;
         SceneManager.LoadScene(sceneName);
     }
 }
