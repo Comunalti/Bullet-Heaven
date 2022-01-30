@@ -1,18 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class MainMenuButton : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public class MainMenuButton : MonoBehaviour{
+    [SerializeField] private string sceneName;
+    [SerializeField] private float delay;
+
+
+    public void LoadScene() {
+        StartCoroutine(SceneStarterCoroutine(delay));
     }
+    
+    private IEnumerator SceneStarterCoroutine(float delay) {
+        yield return new WaitForSeconds(delay);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene(sceneName);
     }
 }
