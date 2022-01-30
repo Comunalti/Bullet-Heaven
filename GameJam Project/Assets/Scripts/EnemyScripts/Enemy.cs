@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace EnemyScripts{
@@ -7,6 +6,9 @@ namespace EnemyScripts{
       [SerializeField] private GameObject _bulletPrefab;
       [SerializeField] private SOEnemyBrainBase brain;
       public Transform _targetTransform;
+      public Vector3 InitialPositon;
+      public Vector3 CurrentTargetPosition;
+      public Vector3 TargetPosition;
 
 
       private void OnEnable() {
