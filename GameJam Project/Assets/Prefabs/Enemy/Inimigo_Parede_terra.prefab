@@ -15,6 +15,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.24
       objectReference: {fileID: 0}
+    - target: {fileID: 1593394616, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
+      propertyPath: <MaxHealth>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593394616, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
+      propertyPath: <CurrentHealth>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3794855323201746, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: brain
       value: 
