@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b21fcfd1114bb484fe55d42e25adca, type: 3}
   m_Name: Infernal Wall Enemy Brain
   m_EditorClassIdentifier: 
-  shotsCooldown: 1
+  shotsCooldown: 2
   bulletSpeed: 5
   enemySpeed: 4.09
   bulletsOffset: 2

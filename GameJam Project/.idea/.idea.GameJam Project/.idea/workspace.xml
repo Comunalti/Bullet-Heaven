@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638bdbb9-a1d1-4e3b-ac4b-3ba448f46ec6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Music changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Music changer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/AI/earth Wall Enemy Brain.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scriptable_Objects/AI/earth Wall Enemy Brain.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Inimigo_Parede_inferno.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Inimigo_Parede_inferno.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Inimigo_Parede_terra.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Inimigo_Parede_terra.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inferno.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inferno.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +150,7 @@
       <workItem from="1643555818235" duration="1658000" />
       <workItem from="1643566593892" duration="8701000" />
       <workItem from="1643587703446" duration="2753000" />
-      <workItem from="1643592225812" duration="408000" />
+      <workItem from="1643592225812" duration="1052000" />
     </task>
     <servers />
   </component>

@@ -14,16 +14,7 @@ namespace EnemyScripts{
 
       private void Start() {
          _targetTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
-      }
-
-      private void OnEnable() {
          brain.InitializeBrain(this);
-         enabled = true;
-      }
-
-      private void OnDisable() {
-         brain.StopCorountine(this);
-         enabled = false;  
       }
 
 
@@ -31,15 +22,7 @@ namespace EnemyScripts{
          brain.Think(this);
       }
 
-      private void OnBecameVisible() {
-         enabled = true;
-      }
-      
-      private void OnBecameInvisible() {
-         enabled = false;
-         var rgb = GetComponent<Rigidbody2D>();
-         rgb.velocity = Vector2.zero;
-      }
+
 
       public void InstantiateBulletPrefab(Vector3 directionVector, float speed, Vector3 startPosition, Quaternion rotation) {
          var bulletInstantiated = Instantiate(_bulletPrefab, startPosition, rotation);
