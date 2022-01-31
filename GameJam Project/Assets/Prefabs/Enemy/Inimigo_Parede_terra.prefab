@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.24
       objectReference: {fileID: 0}
+    - target: {fileID: 3794855323201746, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
+      propertyPath: brain
+      value: 
+      objectReference: {fileID: 11400000, guid: 19cb68f7c64ba114590820337de1a546, type: 2}
     - target: {fileID: 3794855323201747, guid: f875b5a93ab1ae54baa455d30f9c164f, type: 3}
       propertyPath: m_Name
       value: Inimigo_Parede_terra

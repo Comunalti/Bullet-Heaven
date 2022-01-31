@@ -76,7 +76,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletPrefab: {fileID: 1432670872413184013, guid: 379a3f89285890341a8f6c21ce54002b, type: 3}
   brain: {fileID: 11400000, guid: e658205477e896549b7215b5f7413178, type: 2}
-  _targetTransform: {fileID: 0}
   InitialPositon: {x: 0, y: 0, z: 0}
   CurrentTargetPosition: {x: 0, y: 0, z: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
@@ -323,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44a4a3ba5577994aba8dda0fb5bb1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyDyingAudio: {fileID: 0}
+  enemyDyingAudio: {fileID: 8300000, guid: cfc7b4563743bb247b3949b3af45a133, type: 3}
 --- !u!114 &5282981326580611214
 MonoBehaviour:
   m_ObjectHideFlags: 0
