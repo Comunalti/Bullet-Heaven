@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Plataforma
   - Boss_Scene
+  - Inimigo
   layers:
   - Default
   - TransparentFX
