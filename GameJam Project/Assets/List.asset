@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: List
   m_EditorClassIdentifier: 
   platformTemplates:
-  - {fileID: 11400000, guid: ee7ad05ea5c3a16408cf43b0192d3741, type: 2}
   - {fileID: 11400000, guid: d58e71b991103df4086c994317673e66, type: 2}
+  - {fileID: 11400000, guid: ee7ad05ea5c3a16408cf43b0192d3741, type: 2}
+  - {fileID: 11400000, guid: 581b1a7399f2f0d4b97702fbdabdc65d, type: 2}
+  - {fileID: 11400000, guid: 3695ab571c29ceb49830e80cf77b6aea, type: 2}
