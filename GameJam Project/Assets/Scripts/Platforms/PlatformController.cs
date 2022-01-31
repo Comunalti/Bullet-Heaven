@@ -1,4 +1,5 @@
-﻿using DefaultNamespace;
+﻿using System;
+using DefaultNamespace;
 using Player.Platforms.PlatformsBehaviour;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -39,7 +40,13 @@ namespace Player.Platforms
             SetPlatformTemplate(currentPlatformTemplate);
         }
 
-        
+        private void OnDestroy()
+        {
+            inputReader.MouseLeftClickChangedEvent -= OnLeftClickChange;
+            inputReader.MouseRightClickChangedEvent -= OnRightClickChange;
+            inputReader.MousePositionChangedEvent -= MovePlatform;
+        }
+
         public void SetPlatformTemplate(PlatformTemplate newPlatformTemplate)
         {
 
