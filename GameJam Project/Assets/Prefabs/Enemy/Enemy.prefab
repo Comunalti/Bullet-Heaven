@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -2080336555381180492}
   - component: {fileID: -1361799875384719515}
   - component: {fileID: -8738999506937731680}
+  - component: {fileID: 5282981326580611214}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
@@ -76,6 +77,9 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 1432670872413184013, guid: 379a3f89285890341a8f6c21ce54002b, type: 3}
   brain: {fileID: 11400000, guid: e658205477e896549b7215b5f7413178, type: 2}
   _targetTransform: {fileID: 0}
+  InitialPositon: {x: 0, y: 0, z: 0}
+  CurrentTargetPosition: {x: 0, y: 0, z: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
 --- !u!212 &4788001163589804615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -317,5 +321,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e44a4a3ba5577994aba8dda0fb5bb1df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDyingAudio: {fileID: 0}
+--- !u!114 &5282981326580611214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794855323201747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99037f9ee8c32c408614fbed0de5484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
