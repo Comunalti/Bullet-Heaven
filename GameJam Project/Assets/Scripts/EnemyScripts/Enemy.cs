@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace EnemyScripts{
@@ -5,11 +6,15 @@ namespace EnemyScripts{
    public class Enemy : MonoBehaviour{
       [SerializeField] private GameObject _bulletPrefab;
       [SerializeField] private SOEnemyBrainBase brain;
-      public Transform _targetTransform;
+      [NonSerialized]  public Transform _targetTransform;
       public Vector3 InitialPositon;
       public Vector3 CurrentTargetPosition;
       public Vector3 TargetPosition;
 
+
+      private void Start() {
+         _targetTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+      }
 
       private void OnEnable() {
          brain.InitializeBrain(this);
