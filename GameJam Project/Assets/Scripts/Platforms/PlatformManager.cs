@@ -35,6 +35,11 @@ public class PlatformManager : MonoBehaviour
         platformList.ItemAddedEvent += OnItemAdded;
         platformList.ItemRemovedEvent += OnItemRemoved;
 
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+        
         foreach (var template in platformList.platformTemplates){
             OnItemAdded(template);
         }
