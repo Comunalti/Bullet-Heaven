@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6032660521192742468}
   - component: {fileID: 7757456151612720582}
   - component: {fileID: 8405044768282972673}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Music changer
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

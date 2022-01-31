@@ -16,4 +16,4 @@ MonoBehaviour:
   bulletSpeed: 5
   enemySpeed: 4.09
   bulletsOffset: 2
-  enemyOffsetPosition: 0.5
+  enemyOffsetPosition: 1
