@@ -10,6 +10,10 @@ namespace EnemyScripts{
         public override void InitializeBrain(MonoBehaviour monoBehaviour) {
             var enemy = (Enemy) monoBehaviour;
             enemy.StartCoroutine(StartShotAfterCooldownCoroutine(enemy));
+            
+            var enemyRigidbody = enemy.GetComponent<Rigidbody2D>();
+            
+            enemyRigidbody.velocity = Vector3.right * enemySpeed;
         }
 
         public override void StopCorountine(MonoBehaviour monoBehaviour) {
@@ -36,11 +40,8 @@ namespace EnemyScripts{
         protected override void MoveEnemyHorizontally(Enemy enemy, Vector2 initialDirection) {
             var enemyRigidbody = enemy.GetComponent<Rigidbody2D>();
             
-            enemyRigidbody.velocity = initialDirection * enemySpeed;
-
             if (Physics2D.Raycast(enemy.transform.position, enemyRigidbody.velocity.normalized,raycastOffset,wallLayer)) {
                 enemyRigidbody.velocity *= -1;
-                enemySpeed *= -1;
             }
         }
 
